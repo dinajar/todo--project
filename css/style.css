@@ -1,0 +1,147 @@
+* {
+    font-family: 'Itim' ,cursive
+    }
+    
+    
+    
+    header {
+        width: 100%;
+        position:relative;
+        top: 0;
+        background-color:#8080801a ;
+    }
+    
+    nav {
+        float: right;
+        width: 90%;
+        background-color: #80808059;
+    }
+    
+    
+    header div img {
+        float:left ;
+        width: 10%;
+        height: 15%;
+        border: 50%;
+        margin: 0 0 5px  0 ;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding: 70px 10px;
+        margin-left: 30%;
+    
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(56, 50, 50);
+    }
+    
+    div h1 {
+        padding-top: 20%;
+        padding-bottom: 80px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    div table {
+       
+        padding-top: 100px;
+        padding-bottom: 80px;
+        
+        
+        
+    }
+    
+    tr td {
+        width:40%;
+        font-size: 40px;
+        border-radius: 40px;
+        border: 1px solid rgb(34, 33, 33);
+        text-shadow: #8080801a;
+        text-align: center;
+    }
+    
+    tr th {
+        border-radius: 20px;
+        font-size: 50px;
+        border: 1px solid rgb(34, 33, 33); 
+        width:40%;
+        text-align: center;
+        
+    }
+     
+    
+    footer {
+        background-color: #80808059;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        
+        
+       
+    }
+    
+    div p {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: rgb(56, 50, 50);
+    }
+    
+    i {
+        font-size: 10px;
+        color: red;
+        font-size: 20px;
+    }
+    
+    
+    #profil {
+       margin: 50px 0 10px 10%;
+       float: left;
+       
+    }
+    
+    #styleName {
+        float: right;
+        padding-top: 20px;
+        padding-right:20%;
+        font-size: 60px;
+        color: red;
+    
+    }
+    
+    
+    #overview {
+        float: right;
+        padding-top: 10px;
+        padding-right: 10%;
+        font-size: 40px;
+        color:black;
+        margin-bottom: 10px;
+       
+    }
+    #Contact {
+        color: rgb(168, 9, 9);
+        float: right;
+        padding-top: 100px;
+        padding-right: 40%;
+        font-size: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    form input,select,button,textarea {
+        margin-top: 20px;
+        padding: 12px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 4px;
+        
+        
+    }
