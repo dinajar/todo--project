@@ -18,12 +18,18 @@ switch (gender){
 
 
 var age = prompt("enter your age");
-if (age <= 0){
-    console.log("your age <= 0");
+if (age < 0){
+    console.log("your age < 0");
+}
+else if (age == 0){
+    console.log("your age = 0");
 }
 else{
     console.log(age);
 }
+
+
+
 
 
 var message = confirm("Do you want to skip the welcome message?");
